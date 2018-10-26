@@ -94,16 +94,24 @@ input {
  * Graph colors
  */
 .b {
-	background-color:#416D9C;
+	/*background-color:#416D9C;*/
+    /* zeta shift */
+    background-color:#603987;
 }
 .g {
-	background-color:#70A35E;
-}
-.r {
-	background-color:#C74243;
+	/*background-color:#70A35E;*/
+    /* dawn guard */
+    background-color:#EF8131;
 }
 .y {
-	background-color:#EBB056;
+	/*background-color:#EBB056;*/
+    /* alpha flight */
+    background-color:#B1222A;
+}
+.r {
+	/*background-color:#C74243;*/
+    /* night watch */
+    background-color:#1574B7;
 }
 /**
  * Global table styling
@@ -315,10 +323,10 @@ th {
 	width:55px;
 }
 .ppl2 col.c2 {
-	width:125px;
+	width:115px;
 }
 .ppl2 col.pos {
-	width:24px;
+	width:34px;
 }
 .ppl2 td.k1,
 .ppl2 td.k2,

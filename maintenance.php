@@ -200,8 +200,8 @@ class maintenance
 	{
 		output::output('notice', __METHOD__.'(): performing database maintenance routines');
 		$sqlite3->exec('BEGIN TRANSACTION') or output::output('critical', basename(__FILE__).':'.__LINE__.', sqlite3 says: '.$sqlite3->lastErrorMsg());
-		output::output('notice', __METHOD__.'(): start register_most_active_alias()');
-		$this->register_most_active_alias($sqlite3);
+		#output::output('notice', __METHOD__.'(): start register_most_active_alias()');
+		#$this->register_most_active_alias($sqlite3);
 		output::output('notice', __METHOD__.'(): start make_materialized_views()');
 		$this->make_materialized_views($sqlite3);
 		output::output('notice', __METHOD__.'(): start calculate_milestones()');
